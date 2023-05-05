@@ -13,8 +13,11 @@
 
 body {
     background-image: url(imagens/background-img.png);
-    background-size: auto;
-    background-position-x: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+    
 }
 
 textarea:focus, input:focus {
@@ -24,6 +27,8 @@ textarea:focus, input:focus {
 img {
     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.244);
     border-radius: 100%;
+    
+    
 }
 
 a, label {
@@ -42,15 +47,15 @@ a:hover {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
     padding: 20px 30px;
     text-align: center;
     margin-top: 10vh;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    margin-top: 50px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
+    
 }
-
 /* Formulário */
 
 form {
