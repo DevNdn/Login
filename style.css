@@ -21,6 +21,11 @@ textarea:focus, input:focus {
     outline: none;
 }
 
+img {
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.244);
+    border-radius: 100%;
+}
+
 a, label {
     font-size: .8rem;
 }
@@ -42,15 +47,16 @@ a:hover {
     margin-top: 10vh;
     border-radius: 10px;
     margin-bottom: 50px;
-    margin-top: 50px;;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
 }
-
 
 /* Formulário */
 
 form {
     margin-top: 30px;
     margin-bottom: 30px;
+    
     
 }
 
@@ -61,7 +67,8 @@ label, input {
 }
 
 label {
-       font-weight: bold;
+    font-weight: bold;
+    
 }
 
 input {
@@ -92,6 +99,7 @@ input[type="submit"] {
     height: 40px;
     margin-top: 30px;
     cursor: pointer;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
 }
 
 input[type="submit"]:hover {
@@ -113,8 +121,7 @@ input[type="submit"]:hover {
     height: 40px;
     width: 30px;
     margin: 0px 5px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 #register-box > p {
@@ -122,7 +129,7 @@ input[type="submit"]:hover {
 }
 
 #register-box > a {
-    
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
     text-align: center;
     padding: 5px;
     background-color: #5e0f92;
