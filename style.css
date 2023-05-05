@@ -21,7 +21,7 @@ textarea:focus, input:focus {
     outline: none;
 }
 
-a {
+a, label {
     font-size: .8rem;
 }
 
@@ -41,4 +41,40 @@ a:hover {
     text-align: center;
     margin-top: 10vh;
     border-radius: 10px;
+}
+
+
+/* Formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+       font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    
+}
+
+input:focus {
+    border-bottom: 2px solid #5e0f92;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
 }
