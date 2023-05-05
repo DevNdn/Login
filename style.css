@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+/* estilo geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url(imagens/background-img.png);
+    background-size: auto;
+    background-position-x: 10px;
+}
+
+
+
