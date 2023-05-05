@@ -78,3 +78,54 @@ input:focus {
     text-align: right;
     display: block;
 }
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #5e0f92;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2b0346;
+    transition: .6s;
+} 
+
+
+/* Social-box */
+#social-box {
+    margin-bottom: 5px;
+}
+
+#social-box > p {
+    margin-bottom: 5px;
+}
+
+#social-box > svg {
+    height: 40px;
+    width: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+    
+}
+
+#register-box > p {
+    margin-bottom: 20px;
+}
+
+#register-box > a {
+    
+    text-align: center;
+    padding: 5px;
+    background-color: #5e0f92;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+}
